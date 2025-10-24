@@ -1,7 +1,8 @@
 import axios from 'axios';
 import { GenerateQuestionsResponse, Difficulty } from '../types';
 
-const API_BASE_URL = '/api';
+// Use environment variable for API URL, fallback to relative path for local dev
+const API_BASE_URL = import.meta.env.VITE_API_URL || '/api';
 
 export const api = {
   async generateFromText(

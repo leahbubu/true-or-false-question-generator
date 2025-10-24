@@ -6,6 +6,13 @@ An AI-powered web application that generates high-quality true/false quiz questi
 ![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue.svg)
 
+## Quick Links
+
+- [Installation & Local Development](#installation)
+- [Deploy to GitHub Pages](DEPLOYMENT.md) - Host your own instance
+- [Usage Guide](#usage)
+- [API Documentation](#api-endpoints)
+
 ## Features
 
 - **Multi-Source Input**: Generate questions from:
@@ -108,6 +115,21 @@ npm run dev:client
    ```
 
 The server will serve both the API and the built frontend files.
+
+## Deployment
+
+To deploy this application to GitHub Pages and host it online:
+
+1. See the comprehensive [**DEPLOYMENT.md**](DEPLOYMENT.md) guide for step-by-step instructions
+2. Frontend: Deploy to GitHub Pages (free, included in guide)
+3. Backend: Deploy to Railway, Render, or Heroku (free tiers available)
+
+The deployment guide covers:
+- Automatic deployment with GitHub Actions
+- Backend hosting options (Railway, Render, Heroku, Vercel)
+- Environment configuration
+- Connecting frontend to backend
+- Troubleshooting tips
 
 ## Usage
 
